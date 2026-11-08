@@ -101,6 +101,17 @@ For each of 4H, 15M and 5M give: trend, last BOS/TC, strong and weak points, pre
 - Gold, forex and US30 do have sessions and news; respect them.
 - This is educational software. It is not financial advice.
 
+## 11. Gold (XAU/USD) notes
+
+Gold has sessions and news, so read it with these additions to the checklist.
+
+- **Shallow pullbacks.** Gold is a momentum market and often retraces only about 30% of a leg. A setup that insists on a deep discount can miss the move, so state how deep the pullback actually is.
+- **Round numbers.** Levels at every 10, 50 and 100 attract liquidity. Note any that sit near a zone or a stop.
+- **Violent sweeps.** Rule-based stop levels belong beyond the sweep wick plus a buffer.
+- **News blackout.** Gold reacts to all high-impact USD news. Report WAIT-STATE from 30 minutes before to 30 minutes after an event.
+- **Correlation.** Gold usually moves against the dollar and US yields. A rally alongside a rising dollar is unusual, so flag it. Silver is the comparison market: a new gold low that silver does not confirm is a divergence worth noting.
+- **Precision and evidence.** Quote gold levels to 2 decimals. The backtest in section 10 did not include gold, and Deriv's free feed serves too little gold history to test these notes, so they are unproven.
+
 ## Live data
 
 Deriv public candles (no account needed): `wss://api.derivws.com/trading/v1/options/ws/public`, request
